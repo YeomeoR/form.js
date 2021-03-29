@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form input</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="banner">
+        <h1 class="title">Form Input</h1>
+      </div>
+      <form class="form">
+        <input type="text" class="name" id="name" placeholder="name" />
+        <input type="email" class="email" id="email" placeholder="email" />
+
+        <textarea
+          class="message"
+          cols="40"
+          rows="3"
+          id="message"
+          placeholder="message"
+          autocomplete="off"
+        ></textarea>
+      </form>
+      <div class="holding">
+        <small id="small"
+          >When you are happy with your message, click the button to submit
+        </small>
+      </div>
+      <button class="btn" type="submit">Submit</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
